@@ -55,6 +55,18 @@ Once the application is running, you can interact with the API by sending a requ
 - `category_id` (optional): The ID of the category the user wants to view.
 - `mood` (optional): The mood the user is currently in (e.g., `happy`, `passion`, etc.).
 
+##### Postman Output:
+- Post Views 
+![Post Views](/data/assets/post_views.png)
+- Post Likes
+![Post Likes](/data/assets/post_likes.png)
+- Post Ratings 
+![Post Ratings](/data/assets/post_ratings.png)
+- Post Reviews 
+![Post Reviews](/data/assets/post_review.png)
+- Post Inspirations 
+![Post Inspire](/data/assets/post_inspire.png)
+
 ##### URL Example:
 ```
 http://127.0.0.1:5000/feed?username=211&category_id=1&mood=passion
